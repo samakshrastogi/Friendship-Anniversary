@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendship Anniversary Celebration</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="particles" id="particles"></div>
+    <div class="container">
+      <h1>Happy Friendship Anniversary Komal!</h1>
+      <p>
+        6 saal ho gaye... par har pal aaj bhi naya lagta hai 💫❤️ 28 April 2019
+        se shuru hui dosti, ab zindagi ban gayi hai 💖 Tere saath har din ek
+        khubsurat yaad ban jaata hai 📸✨ Teri muskurahat, teri baatein... sab
+        kuch dil ke kareeb hai 💞 Happy 6th Friendship Anniversary meri jaan 💝
+        Tu hai, toh sab kuch perfect lagta hai 🥰🌹
+      </p>
+      <div class="timer" id="timer"></div>
+      <div class="counter-container" id="counterContainer">
+        <div id="loveCounter" class="counter">0 km</div>
+        <div class="subtitle">
+          Every kilometer… a heartbeat closer to you 💓
+        </div>
+      </div>
+      <div class="cube-container" id="cube"></div>
+      <div class="special-main-container">
+        <!-- Image Slideshow -->
+        <div class="special-slideshow-container">
+          <img src="images/pic1.jpg" class="active" />
+          <img src="images/pic2.jpg" />
+          <img src="images/pic3.jpg" />
+          <img src="images/pic4.jpg" />
+          <img src="images/pic5.jpg" />
+          <img src="images/pic6.jpg" />
+          <img src="images/pic7.jpg" />
+          <img src="images/pic8.jpg" />
+          <img src="images/pic9.jpg" />
+          <img src="images/pic10.jpg" />
+
+          <div class="special-slideshow-controls">
+            <button onclick="specialPrevSlide()">❮</button>
+            <button onclick="specialNextSlide()">❯</button>
+          </div>
+        </div>
+
+        <!-- Video Player -->
+        <div class="special-video-container">
+          <video
+            id="special-video"
+            autoplay
+            muted
+            loop
+            class="special-video"
+          ></video>
+
+          <button class="special-unmute-btn" onclick="specialUnmute()">
+            🔊
+          </button>
+
+          <div class="special-video-controls">
+            <button onclick="specialPrevVideo()">⏮️</button>
+            <button onclick="specialTogglePlay()">⏯️</button>
+            <button onclick="specialNextVideo()">⏭️</button>
+          </div>
+        </div>
+      </div>
+
+      <button onclick="revealSecret()">Reveal Secret Message</button>
+      <div class="secret-section" id="secret">
+        <h2>A Secret Message for You</h2>
+        <video autoplay loop>
+          <source src="images/Special message.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="shayari">
+          Dosti mein pyaar ho gaya 💞<br />
+          Tera saath mere liye khuda ka vardaan ho gaya 🙏 <br />
+          Har pal tujhmein khud ko paaya ❤️ <br />
+          Tu dost nahi, meri duniya ban gayi 🌍💘 <br />
+          Happy Friendship Day, meri jaan! 🫶🌸
+        </div>
+      </div>
+      <div class="timeline">
+        <h2>Our Journey Through the Years</h2>
+        <div class="timeline-year">
+          <img src="images/pic1.jpg" />
+          <p>
+            <strong>2019:</strong>🌸 Hamari Dosti Ka Pehla Saal 🌸 <br /><br />
+            Is saal hamari dosti ne ek nayi pehchaan banayi hai. 💫 Humne ek
+            dusre ko behtar samjha aur apni dosti ko ek mazboot neev di. 🤝
+            Tumhari meethi awaaz aur tumhari daya bhari baatein sabse khaas thi.
+            💖 Tumhara kindness ne mere dil mein ek khaas jagah banayi hai. 🌹
+            Dosti ka safar yahi tak hai, aur yeh safar hamesha yaad rahega! 😊
+          </p>
+        </div>
+        <div class="timeline-year">
+          <img src="images/pic2.jpg" />
+          <p>
+            <strong>2020:</strong>💫 Hamari Dosti Ka Safar – Dusra Saal 💫<br /><br />Is
+            saal, tumhare efforts ne mujhe sabse zyada impress kiya hai. 🌟
+            Tumne mere saath baat karne ke liye email aur mere father ke
+            WhatsApp ka bhi istemal kiya, aur yeh gesture mujhe bohot pasand
+            aaya. 😊 Tumhara yeh effort mere liye sach mein special tha! Aur yeh
+            bhi sach hai ki yeh wo daur tha jab mai tumhe aur tumhare calls ka
+            intezaar karta tha. 📲 Tumhari call kuch hi minutes ki hoti thi,
+            lekin wahi kuch minutes mera din banane ke liye kaafi hote the. 💖
+            Dosti ka yeh safar har din aur bhi yaadgar ho raha hai! 🌸
+          </p>
+        </div>
+        <div class="timeline-year">
+          <img src="images/pic3.jpg" />
+          <p>
+            <strong>2021:</strong> 🌼 Hamari Dosti Ka Teesra Saal – Jazbaaton Ka
+            Mod 🌼<br /><br />Teesre saal mein hamari dosti aur gehri ho gayi...
+            🤍 Hum ek dusre ke dukh-sukh, har choti-badi baat, har expression
+            aur har reply ko mehsoos karne lage the. 💬 Is dauraan, mujhe ehsaas
+            hua ki main tumse pyar kar baitha hoon... ❤️ Maine iss saal tumhe
+            impress karne ki koshish ki, apne jazbaat bayan kiye, aur tumse apne
+            dil ki baat kehne ki himmat bhi juti... Lekin tumne apne wajah se
+            politely mana kar diya, aur samjhaya ki mujhe abhi is sab mein nahi
+            padna chahiye. 💭 Tumhari baaton mein samajh tha, aur tumhari soch
+            mein maturity... 💫 Shayad isi wajah se meri izzat aur bhi badh gayi
+            tumhare liye. Yeh saal ek naya mod tha, jahan jazbaat toh badle,
+            lekin dosti wahi bani rahi – saaf, gehri aur sacchi. 🌿
+          </p>
+        </div>
+        <div class="timeline-year">
+          <img src="images/pic4.jpg" />
+          <p>
+            <strong>2022:</strong> 🎉 Hamari Dosti Se Rishta Tak – Chautha Saal
+            🎉<br /><br />Chautha saal... ek aisa daur jo kabhi bhool nahi
+            sakta. 🌟 Ek lambi intezaar aur tumhe impress karne ki koshishon ke
+            baad, April mein tumne finally 'haan' kaha... aur uss pal khushi ka
+            toh thikana hi nahi tha! 🥹💖 Is saal hum pehli baar mile, saath waqt
+            bitaya, hasin pal jeeye, aur apni yaadon mein kuch khubsurat lamhe
+            hamesha ke liye basaa liye. ✨ Tumhara "yes" meri duniya ka sabse
+            pyara lafz ban gaya... usi din se main sirf tumhara ho gaya. 🫶💕 Yeh
+            saal sirf dosti ka nahi, ek nayi shuruaat ka tha — ek pyare rishte
+            ki jo dosti se shuru hua tha. 💑🌈
+          </p>
+        </div>
+        <div class="timeline-year">
+          <img src="images/pic5.jpg" alt="" />
+          <p>
+            <strong>2023: </strong>💞 Rishton Ka Pehla Saal – Paanchva Saal
+            💞<br /><br />Paanchva saal hamari relationship ka pehla aur sabse
+            khaas saal raha... 🌸 Is saal humne sirf ek dusre ko samjha nahi,
+            balki andar se mehsoos kiya... 💭 Har emotion, har secret, har baat
+            – sab kuch humne khul kar baanta. 🗝️💬 Iss saal hum do baar mile,
+            aur dono baar itna khoobsurat waqt saath bitaya ki lagaa jaise
+            zindagi ruk gayi ho kuch pal ke liye... ⏳💑 Saath mein khana khaya,
+            date pe gaye, ghoome phire, aur sabse khaas — tumhare haathon mein
+            haath lekar lambi baatein ki. 🤝🌃 Yeh saal sirf relationship ka
+            nahi, ek doosre ke dil mein basne ka tha. ✨💕
+          </p>
+        </div>
+        <div class="timeline-year">
+          <img src="images/pic6.jpg" alt="" />
+          <p>
+            <strong>2024:</strong>🌟 Vishwas Aur Vaadon Ka Saal – Chhatha Saal
+            🌟<br /><br />Chhatha saal... ek aur kadam kareeb aane ka. 💖 Iss
+            saal hum 3 baar mile, aur pehli baar humne ek dusre ke parivaar ko
+            samjha aur jaana. 👨‍👩‍👧‍👦 Main tumhare kuch family members se mila, aur
+            yeh connection aur bhi gehra ho gaya. 💫 Humne iss saal bhi saath
+            mein bohot saari baatein ki, pal jeeye, aur khushiyon ko milkar
+            mehsoosa. 🌈 Lekin haan... kuch fights bhi hui. 😔 Par unhi fights
+            ke beech humne ek shapath li – “Ab kabhi ladai nahi, sirf pyaar aur
+            samajh.” 🤝💞 Baby, maine vaada kiya hai ki main hamesha tumhare
+            saath rahunga – har ek pal mein, har ek mod par. 🫶 Aur ab hum ek
+            naye sapne ki tayaari kar rahe hain — ek behtar future, jisme sirf
+            tum, main, aur humara saath ho... hamesha ke liye. 🌍💑💫
+          </p>
+        </div>
+      </div>
+
+      <button onclick="shareMemory()">Friend's Wishes</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

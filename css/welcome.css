@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ff6b6b, #ffcccb);
+  overflow-x: hidden;
+  color: #5c0d2d;
+  text-align: center;
+  position: relative;
+}
+
+.banner {
+  padding: 120px 20px 50px;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+}
+
+p {
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.question,
+.follow-up {
+  font-size: 1.6rem;
+  margin-top: 40px;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.btn-group {
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+button {
+  padding: 14px 35px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  border-radius: 9999px;
+  background: linear-gradient(45deg, #ec4899, #f472b6);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 5px 20px rgba(236, 72, 153, 0.5);
+}
+
+button:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.7);
+}
+
+#threeCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#timeline {
+  margin: 50px auto;
+  max-width: 800px;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.timeline-item {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #5c0d2d;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#tailorQuestion,
+#tailorButtons {
+  display: none; /* Initially hidden */
+}
+
+audio {
+  display: none;
+}
