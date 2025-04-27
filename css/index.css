@@ -283,3 +283,18 @@ label {
     margin-top: 8px;
   }
 }
+
+#pname,
+#lname {
+  color: #fff;
+  position: relative;
+  left: -300px; /* Start hidden to the left */
+  opacity: 0;
+  transition: all 1s ease; /* Smooth transition */
+}
+
+#pname.show,
+#lname.show {
+  left: 0; /* Slide into position */
+  opacity: 1;
+}
