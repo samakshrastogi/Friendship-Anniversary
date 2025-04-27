@@ -45,3 +45,13 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     setTimeout(() => error.classList.remove("show"), 3000);
   }
 });
+
+setTimeout(function () {
+  document.getElementById("pname").classList.add("show");
+}, 30000); // 30 seconds delay
+
+// Show lname after 40 seconds
+setTimeout(function () {
+  document.getElementById("lname").classList.add("show");
+}, 40000); // 4 seconds delay
+
