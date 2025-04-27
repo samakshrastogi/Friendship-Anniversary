@@ -39,7 +39,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   const error = document.getElementById("error");
 
   if (username === "samako" && password === "28042019") {
-    window.location.href = "welcome.html";
+    window.location.href = "firstpage.html";
   } else {
     error.classList.add("show");
     setTimeout(() => error.classList.remove("show"), 3000);
